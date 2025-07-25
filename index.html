@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mothership IRL</title>
+  <style>
+    body {
+      background: black;
+      color: #00ffcc;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      border: 2px solid #00ffcc;
+      image-rendering: pixelated;
+      background-color: black;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>MOTHERSHIP IRL</h1>
+  <p>Score: <span id="score">0</span> | Lives: <span id="lives">3</span></p>
+  <canvas id="gameCanvas" width="640" height="480"></canvas>
+  <script src="scripts/game.js"></script>
+</body>
+</html>
